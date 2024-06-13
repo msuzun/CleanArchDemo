@@ -1,4 +1,5 @@
 ﻿using CleanArch.Application.Interfaces;
+using CleanArch.Application.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -16,7 +17,8 @@ namespace CleanArch.Mvc.Controllers
         }
         public IActionResult Index()
         {
-            return View();
+            CourseViewModel model = _courseService.GetCourses();
+            return View(model);
         }
     }
 }
