@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using AutoMapper.QueryableExtensions;
 using CleanArch.Application.Interfaces;
 using CleanArch.Application.ViewModels;
 using CleanArch.Domain.Commands;
@@ -27,12 +28,9 @@ namespace CleanArch.Application.Services
             _bus.SendCommand(_automapper.Map<CreateCourseCommand>(courseViewModel));
         }
 
-        public CourseViewModel GetCourses()
+        public IEnumerable<CourseViewModel> GetCourses()
         {
-            return new CourseViewModel()
-            {
-                Courses = _courseRepository.GetCourses()
-            };
+            return _courseRepository.GetCourses().ProjectTo<CourseViewModel>(_automapper.ConfigurationProvider);
         }
     }
 }
