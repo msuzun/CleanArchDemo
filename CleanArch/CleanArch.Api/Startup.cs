@@ -1,4 +1,5 @@
-﻿using CleanArch.Infra.Data.Context;
+﻿using CleanArch.Api.Configuration;
+using CleanArch.Infra.Data.Context;
 using CleanArch.Infra.IoC;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
@@ -40,6 +41,7 @@ namespace CleanArch.Api
                 c.SwaggerDoc("v1", new Info { Title="University Api", Version="v1"});
             });
             services.AddMediatR(typeof(Startup));
+            services.RegisterAutoMapper();
             RegisterServices(services);
         }
 
