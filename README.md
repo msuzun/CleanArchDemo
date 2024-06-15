@@ -114,4 +114,4 @@ Uygulamanın kullanıcı arayüzü katmanıdır. Responsive template kullanılar
 
 ## 📄 Lisans
 
-Bu proje MIT Lisansı altında lisanslanmıştır - detaylar için \`LICENSE\` dosyasına bakınız.
+Bu şablonu kendi projenize uyacak şekilde düzenleyebilirsiniz.
