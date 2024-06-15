@@ -48,26 +48,26 @@ Proje 7 ana katmandan oluşmaktadır:
 ### Adımlar
 
 1. Bu repository'yi klonlayın:
-   \`\`\`sh
+   
    git clone https://github.com/yourusername/yourprojectname.git
-   \`\`\`
+   
 2. Proje dizinine gidin:
-   \`\`\`sh
+   
    cd yourprojectname
-   \`\`\`
+   
 3. Gerekli bağımlılıkları yükleyin:
-   \`\`\`sh
+
    dotnet restore
-   \`\`\`
-4. Veritabanı bağlantı ayarlarını \`appsettings.json\` dosyasında yapılandırın.
+
+4. Veritabanı bağlantı ayarlarını appsettings.json dosyasında yapılandırın.
 5. Veritabanını güncelleyin:
-   \`\`\`sh
+
    dotnet ef database update
-   \`\`\`
+
 6. Projeyi çalıştırın:
-   \`\`\`sh
+
    dotnet run
-   \`\`\`
+
 
 ## 📂 Katmanlar
 
@@ -109,8 +109,8 @@ Uygulamanın kullanıcı arayüzü katmanıdır. Responsive template kullanılar
 
 ## 👥 Katkıda Bulunanlar
 
-- [Your Name](https://github.com/yourusername)
-- [Diğer Katılımcılar]
+- [msuzun](https://github.com/msuzun)
+
 
 ## 📄 Lisans
 
