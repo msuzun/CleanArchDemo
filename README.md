@@ -5,12 +5,12 @@
 
 ## 📋 İçindekiler
 
-- [Proje Hakkında](#proje-hakkında)
-- [Özellikler](#özellikler)
-- [Kurulum](#kurulum)
-- [Katmanlar](#katmanlar)
-- [Kullanılan Teknolojiler](#kullanılan-teknolojiler)
-- [Katkıda Bulunanlar](#katkıda-bulunanlar)
+- [Proje Hakkında](#-proje-hakkında)
+- [Özellikler](#-özellikler)
+- [Kurulum](#-kurulum)
+- [Katmanlar](#-katmanlar)
+- [Kullanılan Teknolojiler](#-kullanılan-teknolojiler)
+- [Katkıda Bulunanlar](#-katkıda-bulunanlar)
 
 ## 💡 Proje Hakkında
 
